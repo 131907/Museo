@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 12px;}
+
+  #intro  /* background-fondo */
+   {background-image: url(img/fondo-seccion-1.jpg); 
+    background-size:cover;
+    background-repeat: no-repeat;
+} 
+
+#andy-info  /* background-fondo */
+{background-image: url(img/fondo-seccion-2.jpg); 
+ background-size: cover;
+ background-repeat: no-repeat;
+} 
+
+#expo-info  /* background-fondo */
+{background-image: url(img/fondo-seccion-3.jpg); 
+ background-size: cover;
+ background-repeat: no-repeat;
+} 
+
+#video /* background-fondo */
+{background-image: url(img/fondo-seccion-4.jpg); 
+ background-size: cover;
+ background-repeat: no-repeat;
+} 
+
+#banner {background-image: url(img/andy-banner1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+   } 
+
+
+/* textos */
+    text {font-family: Helvetica, sans-serif;
+    padding-top: 206px;}
+
+    .exposicion-text {color: white; padding-top: 100px; font-size: 30pt;}
+
+    .andy-text { font-size: 60pt; font-family: Arial, Helvetica, sans-serif;}
+
+
+
+
+    .rectangulo-1 {background-image: url(img/rectangulo-1.png);
+        background-repeat: no-repeat;
+    background-position: center center; 
+}
+.info-intro {font-size: 17pt;  padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px; color: #0037B3;  font-family: Arial, Helvetica, sans-serif;}
+
+    .texto-p {color: #0037B3; font-size: 17pt; padding-bottom: 90px; padding-top: 111px;  font-family: Arial, Helvetica, sans-serif;}
+
+
+    .rectangulo-2 {background-image: url(img/rectangulo-2.png);
+    background-repeat: no-repeat;
+background-position: center center;
+padding-top: 30px;
+}
+
+.entrada {font-size: 17pt;
+    padding-top: 10px;
+   padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px; color: #0037B3;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;}
+    
+
+
+/* sobre andy */
+.andy-text {color: #00B2B2;}
+.sobreandy {padding-top: 100px;
+color: #FED715; font-family: Helvetica, sans-serif;
+}
+
+.textoderecha {color: white; font-family: Arial, Helvetica, sans-serif;}
+
+/* sobre la expo */
+.textoizquierda {color: white; font-family: Arial, Helvetica, sans-serif;}
+.textoderecha2 {color: white; font-family: Arial, Helvetica, sans-serif;}
+
+
+
+
+
+/* conoce */
+
+
+.conoce {padding-top: 250px;
+    color: #0037B3; font-family: Helvetica, sans-serif;
+    }
+
+    
+/* fin conoce*/
+
+
+/* footer */
+
+
+.contactenos { font-family: Helvetica, sans-serif; color: #F95C0D;}
+
+.textosfooter {color: white; font-family: Arial, Helvetica, sans-serif;
+padding-top: 15px;}
+
+
+
+/* fin footer*/
+
+
+/* media */
+
+/* vista chica */
+@media (max-width: 575.98px) { 
+    .info-intro {font-size: 13pt;   padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 30px !important;}
+
+        
+
+       .rectangulo-1 {background-image: url(img/rectangulo-1.png);
+        background-repeat: no-repeat;
+    background-position: center center; max-width: 500px; background-size: cover
+ !important
+  }
+
+  .exposicion-text {
+    padding-top: 150px; font-size: 20pt !important}
+    .andy-text { font-size: 40pt !important;}
+
+.texto-p {color: white; font-size: 13pt; padding-bottom: 10px; padding-top: 25px !important}
+
+  /* entrada y rectangulo */
+  .rectangulo-2{background-size: cover}
+  .entrada{font-size: 13pt !important }
+
+
+#banner {padding-bottom:  100px;}
+}
+
+
+
+
+
+
+/* sobre andy, texto e img */
+.sobreandy {padding-top: 25px !important
+    }
+    .imagenizquierda {padding-left: 75px;}
+
+    text {font-family: Helvetica, sans-serif;
+        padding-top: 356px;}
+
+
+        .craneoderecha {padding-left: 45px;}
+
+        .mujerderecha {padding-left: 45px;}
+        
+        
+        
+
+
+
+
+/* vista mediana */
+@media (min-width: 575.98px) { 
+
+
+    #banner {padding-bottom:  150px}
+    
+  }
+
+  /* vista grande */
+  @media (min-width: 992px) { 
+   
+
+/* sobre andy, texto e img */
+    .imagenizquierda {padding-left: 170px;}
+
+.textoderecha {padding-right: 170px;}
+/* sobre andy fin */
+
+/* sobre expo, texto e img */
+.textoderecha2 {padding-right: 170px; padding-left: 25px;}
+
+.textoizquierda {padding-right: 25px; padding-left: 170px;}
+
+.mujerderecha {padding-left: 170px;}
+
+.craneoderecha {padding-right: 170px;}
+
+.infoubicacion {padding-left: 400px;}
+
+
+#banner {padding-bottom: 300px;}
+ }

@@ -1,0 +1,78 @@
+*{box-sizing: border-box;}
+
+.contenedor {margin-left: 10%; margin-right: 10%;}
+
+header,section,footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+article h2 {padding-top: 3%}
+
+section h3{
+    margin-top: 1px;
+}
+
+body{font-family:'Rubik', sans-serif;}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 60%;
+    margin-bottom: 30px;
+    margin-left: 20%;
+}
+
+header {background-image: url(img/fondo-header.jpg);
+    color: black; text-align: center;}
+
+#entradas button{ color: orangered;
+    font-weight: bold;}
+
+#entradas {background-color: #cb1d87;}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    color: white;
+    font-size: 15pt;
+}
+
+form{font-weight: bold; color: #cb1d87;}
+
+#suscripcion button {color: aqua; background-color: #cb1d87; font-weight: bold; margin-top: 5%;}
+
+#entradas h3{ color: black; font-weight: bold;}
+
+#informacion{background-image: url(img/fondo-informacion.jpg);}
+
+#informacion h2{ font-size: 20pt; color: black; font-weight: bold;}
+
+#suscripcion h2{ font-size: 20pt; color: orangered; font-weight: bold;}
+
+#entradas h2{ font-size: 20pt;}
+
+#informacion h4{font-size: 15pt;}
+
+#suscripcion h4{font-size: 15pt;}
+
+#suscripcion {background-color: yellow; color: black;}
+
+footer p {font-size: 20pt;}
+
+footer a {font-size: 12pt; text-decoration: none; color: white;}
+
+#galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;    
+    margin-bottom: 3%;
+}
+
+#informacion p {font-size: 15pt; color: orangered; font-weight: bold;}
+
+footer{background-color: orangered; color:black;}

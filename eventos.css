@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: auto;
+}
+
+.container {max-width: 1280px;
+    margin: 0 auto;}
+
+a {
+    text-decoration: none;
+}
+
+/* EVENTOS */
+.rosa {background-color: #FE0879;
+color: white;
+text-align: center center;}
+
+.azul  {background-color: #0037B3;
+    color: white;
+    text-align: center center;}
+
+.exhibicion {margin-top: 30px;
+}
+
+
+
+/* FIN EVENTOS */
+
+
+
+
+
+
+
+/* nav */
+
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 600;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0.75rem;
+    font-size: larger;
+}
+
+
+/* footer */
+footer ul li{
+        display: inline-block;
+        padding: 0.75rem;
+}
+
+/* footer fin */
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    justify-content: start;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.blanquito{
+    background-color: white;
+}
+
+
+
+/* vista chica */
+@media (max-width: 575.98px){
+
+    .unotres {margin-right: 0px !important;
+        margin-left: 0px !important;
+       align-items: center !important;}
+    
+    .doscuatro {margin-right: 0px !important;
+        margin-left: 0px !important; align-items: center !important;
+    }
+    
+
+}
+
+
+
+
+
+/* vista mediana */
+@media (min-width: 575.98px){.andy1 {font-weight: bold;
+    font-size: 30pt; }
+
+    .unotres {margin-left: 0px;}
+    
+    .doscuatro {margin-right: opx;}
+    
+    .cuatrodos {margin-right: 0px;}}
+
+
+ /* vista grande */
+ @media (min-width: 992px){.andy1 {font-weight: bold;
+    font-size: 45pt; }
+    
+    
+    .unotres {margin-left: -12px ;}
+    
+    .doscuatro {margin-right: -17px ;}
+    
+    .cuatrodos {margin-right: -23px ;}}
