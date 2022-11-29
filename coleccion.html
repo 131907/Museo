@@ -12,38 +12,64 @@
     <link rel="stylesheet" href="estilos.css">
     <!-- tipografía -->
     <link rel="preconectar" href="https://fonts.googleapis.com">
-        <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https: //fonts.googleapis.com/css2? family= DM+Serif+Display & display=swap" rel="stylesheet">
-                <!-- fancybox -->
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <!-- fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <div class="container py-4">
-                <div class="row">
-                    <div class="col-6 justify-content-start">
-                        <img src="img/MoMA-logo.png" alt="logo">
-                    </div>
-                    <div class="col-6 justify-content-end">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="eventos.html">Eventos</a></li>
-                            <li><a href="quines-somos.html">Quienes Somos</a></li>
-                            <li><a href="coleccion.html">Colección</a></li>
-                            <li><a href="tienda.html">Tienda</a></li>
-                        </ul>
-                    </div>
-                </div>
+    <!-- navbar de bootstrap -->
+
+
+    <nav class="navbar navbar-expand-md bg-light mb-5">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <h1>MoMA</h1>
+            </a>
+
+
+            <!-- boton tres rayas -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- fin boton tres rayas -->
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobremoma.html">Sobre Moma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#coleccion">Colección</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tienda">Tienda</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+
+        </div>
+    </nav>
+    <!-- FIN navbar de bootstrap -->
 
 
     <div class="py-3">
-        <h1>Colección</h1>
+        <div class="container">
+            <div class="row">
+                <h1>Colección</h1>
+            </div>
+        </div>
     </div>
 
     <section>
@@ -52,25 +78,88 @@
                 <div>
                     <h2>Artistas</h2>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-8">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur non hic ut possimus cum mollitia
-                    distinctio quo quod fuga eveniet! Harum nulla sequi officiis non et blanditiis, facilis aperiam repellendus
-                    unde? Similique consequuntur hic officiis autem, et ullam consequatur voluptas ex sequi facilis adipisci
-                    minima in, labore itaque veniam perspiciatis ipsa, nesciunt quasi dolorum? Praesentium quod distinctio,
-                    minus odit architecto dolor ipsa in at repellendus! Suscipit possimus nobis explicabo aliquid minima culpa,
-                    cumque aliquam sit asperiores laudantium aut ipsum. Voluptate laborum corrupti id facilis excepturi hic
-                    consequatur, veniam ipsum necessitatibus illum sequi, distinctio deleniti rerum magni!
+                <div class="row col-xs12 col-sm-6 col-md-8">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <p>En el museo contamos con una amplia colección de artistas de distintos movimientos, vanguardias,
+                            estilos y más. Al recorrer el museo puedes conocer sobre</p>
+                    </div>
+                    
+                        <div class="row col-xs12 col-sm-6 col-md-8">
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <h3><a href="#bauhus">Bauhus</a></h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo totam magnam eveniet,
+                                    praesentium vel harum quam esse voluptatum exercitationem? Autem similique excepturi quia
+                                    eos et vero in reiciendis laudantium veniam enim itaque labore quo numquam, nemo voluptates
+                                    vel facere tenetur placeat quos? Itaque quaerat nulla magnam nesciunt repellat ipsa officia </p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <h3><a href="#pop">Andy Warhol</a></h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo totam magnam eveniet,
+                                    praesentium vel harum quam esse voluptatum exercitationem? Autem similique excepturi quia
+                                    eos et vero in reiciendis laudantium veniam enim itaque labore quo numquam, nemo voluptates
+                                    vel facere tenetur placeat quos? Itaque quaerat nulla magnam nesciunt repellat ipsa officia </p>
+                            </div>
+                        </div>
+
+                        <div class="row col-xs12 col-sm-6 col-md-8">
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <h3>Frida Kahlo</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo totam magnam eveniet,
+                                    praesentium vel harum quam esse voluptatum exercitationem? Autem similique excepturi quia
+                                    eos et vero in reiciendis laudantium veniam enim itaque labore quo numquam, nemo voluptates
+                                    vel facere tenetur placeat quos? Itaque quaerat nulla magnam nesciunt repellat ipsa officia </p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6"><h3><a href="#impresionismo">Claude Monet</a></h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo totam magnam eveniet,
+                                    praesentium vel harum quam esse voluptatum exercitationem? Autem similique excepturi quia
+                                    eos et vero in reiciendis laudantium veniam enim itaque labore quo numquam, nemo voluptates
+                                    vel facere tenetur placeat quos? Itaque quaerat nulla magnam nesciunt repellat ipsa officia </p>
+                            </div>
+                        </div>
+
+
+                        <div class="row col-xs12 col-sm-6 col-md-8">
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <h3>Van Gohg</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo totam magnam eveniet,
+                                    praesentium vel harum quam esse voluptatum exercitationem? Autem similique excepturi quia
+                                    eos et vero in reiciendis laudantium veniam enim itaque labore quo numquam, nemo voluptates
+                                    vel facere tenetur placeat quos? Itaque quaerat nulla magnam nesciunt repellat ipsa officia </p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                                <h3><a href="#cubismo">Pablo Picasso</a></h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo totam magnam eveniet,
+                                    praesentium vel harum quam esse voluptatum exercitationem? Autem similique excepturi quia
+                                    eos et vero in reiciendis laudantium veniam enim itaque labore quo numquam, nemo voluptates
+                                    vel facere tenetur placeat quos? Itaque quaerat nulla magnam nesciunt repellat ipsa officia </p>
+                        </div>
+                        </div>
+
+                        <div class="row col-xs12 col-sm-6 col-md-8">
+                            <div class=""><h3><a href="#surrealismo">Salvador Dalí</a></h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo totam magnam eveniet,
+                                    praesentium vel harum quam esse voluptatum exercitationem? Autem similique excepturi quia
+                                    eos et vero in reiciendis laudantium veniam enim itaque labore quo numquam, nemo voluptates
+                                    vel facere tenetur placeat quos? Itaque quaerat nulla magnam nesciunt repellat ipsa officia </p>
+                            </div>
+                        </div>
                 </div>
+
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <figure>
-                        <a data-fancybox="cuadro" href="img/Cuadro4.png"><img src="img/Cuadro4.png" alt="Cuadro4"></a>
-                    </figure>
-                    <figure>
-                        <a data-fancybox="cuadro" href="img/Cuadro3.png"><img src="img/Cuadro3.png" alt="Cuadro3"></a>
-                    </figure>
-                    <figure>
-                        <a data-fancybox="cuadro" href="img/Cuadro2.png"><img src="img/Cuadro2.png" alt="Cuadro2"></a>
-                    </figure>
+                    <div class="row">
+                        <figure>
+                            <a data-fancybox="cuadro" href="img/Pablo-picasso.jpg"><img src="Img/Pablo-picasso.jpg" alt="Artista1"
+                                    width="235" height="274"></a>
+                        </figure>
+                        <figure>
+                            <a data-fancybox="cuadro" href="..."><img src="..." alt="Artista2"
+                                    width="..." height="..."></a>
+                        </figure>
+                        <figure>
+                            <a data-fancybox="cuadro" href="..."><img src="..." alt="Artista3"
+                                    width="..." height="..."></a>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,59 +171,79 @@
                 <div>
                     <h2>Movimientos</h2>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <figure>
-                        <a data-fancybox="cuadro" href="img/Cuadro1.png"><img src="img/Cuadro1.png" alt="Cuadro1"></a>
+                <div class="row col-xs-12 col-sm-6 col-md-4 me-4">
+                    <figure class="py-4">
+                        <a data-fancybox="cuadro" href="img/la-noche.jpg"><img src="img/la-noche.jpg" alt="Cuadro1"
+                                width="261" height="163"></a>
                     </figure>
-                    <figure>
-                        <a data-fancybox="cuadro" href="img/Cuadro1.png"><img src="img/Cuadro1.png" alt="Cuadro1"></a>
-                    </figure>
-                    <figure>
-                        <a data-fancybox="cuadro" href="img/Cuadro1.png"><img src="img/Cuadro1.png" alt="Cuadro1"></a>
+                    <figure class="py-4 d-md-none">
+                        <a data-fancybox="cuadro" href="img/mujer.jpg"><img src="img/mujer.jpg" alt="Cuadro2" width="250" height="310"></a>
                     </figure>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-8">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur non hic ut possimus cum mollitia
-                    distinctio quo quod fuga eveniet! Harum nulla sequi officiis non et blanditiis, facilis aperiam repellendus
-                    unde? Similique consequuntur hic officiis autem, et ullam consequatur voluptas ex sequi facilis adipisci
-                    minima in, labore itaque veniam perspiciatis ipsa, nesciunt quasi dolorum? Praesentium quod distinctio,
-                    minus odit architecto dolor ipsa in at repellendus! Suscipit possimus nobis explicabo aliquid minima culpa,
-                    cumque aliquam sit asperiores laudantium aut ipsum. Voluptate laborum corrupti id facilis excepturi hic
-                    consequatur, veniam ipsum necessitatibus illum sequi, distinctio deleniti rerum magni!
+                <div class="row col-xs12 col-sm-6 col-md-8">
+                    <div class="col-xs-12 col-sm-12 col-md-6 ">
+                        <h3 id="impresionismo">Impresionismo</h3>
+                        <p>Esta corriente artística se caracterizó por usar el lenguaje pictórico en la naturaleza y por
+                            desafiar los antiguos cánones que constituían la formalidad y rigidez del arte renacentista.
+                            Los
+                            pintores dejaron sus talleres para pintar en la naturaleza. Eso fue totalmente nuevo en el
+                            ambiente.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <h3 id="cubismo">Cubismo</h3>
+                        <p>El cubismo es considerado la primera vanguardia, ya que rompe con el último estatuto
+                            renacentista vigente a principios del siglo XX, la perspectiva. En los cuadros cubistas,
+                            desaparece la perspectiva tradicional. Trata las formas de la naturaleza por medio de
+                            figuras geométricas, fragmentando líneas y superficies.</p>
+                    </div>
+                </div>
+
+                <div class="row col-xs-12 col-sm-6 col-md-4 me-4">
+                    <figure class="py-4">
+                        <a data-fancybox="cuadro" href="img/Labios.jpg"><img src="img/Labios.jpg" alt="Cuadro3" width="220" height="220"></a>
+                    </figure>
+                    <figure class="py-4 d-md-none">
+                        <a data-fancybox="cuadro" href="img/bauhus.jpg"><img src="img/bauhus.jpg" alt="Cuadro4" width="271" height="389"></a>
+                    </figure>
+                </div>
+
+                <div class="row col-xs12 col-sm-6 col-md-8">
+                    <div class="py-2 col-xs-12 col-sm-12 col-md-6 ">
+                        <h3 id="pop">Pop Art</h3>
+                        <p>El arte pop, también conocido por su nombre en inglés pop art, fue un movimiento artístico
+                            del siglo XX. Se caracterizó por emplear imágenes y objetos de la cultura popular, tomados
+                            de los medios de comunicación de masas (anuncios publicitarios, revistas, cómics, cine) o de
+                            la realidad cotidiana.</p>
+                    </div>
+
+                    <div class="py-2 col-xs-12 col-sm-12 col-md-6">
+                        <h3 id="bauhus">Bauhus</h3>
+                        <p>Walter Gropius dejó clara su intención en el Manifiesto de la Bauhaus (1919), en el que
+                            describía esa idea unionista entre arte y diseño que buscaba juntar arquitectura, escultura
+                            y pintura en una única expresión creativa.</p>
+                    </div>
+                </div>
+
+                <div class="row col-xs-12 col-sm-6 col-md-4 me-4">
+                    <figure class="py-4">
+                        <a data-fancybox="cuadro" href="img/relojes.jpg"><img src="img/relojes.jpg" alt="Cuadro5" width="263" height="190"></a>
+                    </figure>
+                </div>
+
+                <div class="row col-xs12 col-sm-6 col-md-8">
+                    <div class="col-xs-12 col-sm-12 col-md-6 ">
+                        <h3 id="surrealismo">Surrealismo</h3>
+                        <p>El Surrealismo propone una teoría de lo inconsciente y de lo irracional como medio para
+                            cambiar la vida, la sociedad, el arte y el hombre por medio de la revolución. No es un
+                            movimiento con unidad de estilo, sino una serie de investigaciones de artistas individuales,
+                            cada uno con un estilo propio.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            <div class="row">
-                <div>
-                    <h2>Destacados</h2>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-8">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur non hic ut possimus cum mollitia
-                    distinctio quo quod fuga eveniet! Harum nulla sequi officiis non et blanditiis, facilis aperiam repellendus
-                    unde? Similique consequuntur hic officiis autem, et ullam consequatur voluptas ex sequi facilis adipisci
-                    minima in, labore itaque veniam perspiciatis ipsa, nesciunt quasi dolorum? Praesentium quod distinctio,
-                    minus odit architecto dolor ipsa in at repellendus! Suscipit possimus nobis explicabo aliquid minima culpa,
-                    cumque aliquam sit asperiores laudantium aut ipsum. Voluptate laborum corrupti id facilis excepturi hic
-                    consequatur, veniam ipsum necessitatibus illum sequi, distinctio deleniti rerum magni!
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <figure>
-                        <a data-fancybox="cuadro" href="img/Cuadro1.png"><img src="img/Cuadro1.png" alt="Cuadro1"></a>
-                    </figure>
-                    <figure>
-                        <a data-fancybox="cuadro" href="img/Cuadro1.png"><img src="img/Cuadro1.png" alt="Cuadro1"></a>
-                    </figure>
-                    <figure>
-                        <a data-fancybox="cuadro" href="img/Cuadro1.png"><img src="img/Cuadro1.png" alt="Cuadro1"></a>
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
 
     <footer>

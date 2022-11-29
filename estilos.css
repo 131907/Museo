@@ -58,10 +58,12 @@ a{
 p{
     font-family: 'Merriweather', serif;
     font-size: medium;
+    max-width: 80vh;
 }
 
 h1{
     justify-content: start;
+    font-weight: 700;
 }
 
 h2{
