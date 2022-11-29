@@ -19,26 +19,50 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="container py-4">
-                <div class="row">
-                    <div class="col-6 justify-content-start">
-                        <img src="img/MoMA-logo.png" alt="logo">
-                    </div>
-                    <div class="col-6 justify-content-end">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="eventos.html">Eventos</a></li>
-                            <li><a href="quines-somos.html">Quienes Somos</a></li>
-                            <li><a href="coleccion.html">Colección</a></li>
-                            <li><a href="tienda.html">Tienda</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+<!-- navbar de bootstrap -->
+
+
+<nav class="navbar navbar-expand-md bg-light mb-5">
+    <div class="container">
+
+    <a class="navbar-brand" href="#"> 
+        <h1>MoMA</h1>
+</a>
+
+
+<!-- boton tres rayas -->
+
+    <button class="navbar-toggler" type="button" 
+    data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu"
+    aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+<!-- fin boton tres rayas -->
+
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="eventos.html">Eventos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="quines-somos.html">Sobre Moma</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="coleccion.html">Colección</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="tienda.html">Tienda</a>
+        </li>
+        </ul>
+    </div>
+    
+</div>
+</nav>
+<!-- FIN navbar de bootstrap -->
+
 
 
     <div class="container col-10">
