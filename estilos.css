@@ -58,7 +58,7 @@ a{
 p{
     font-family: 'Merriweather', serif;
     font-size: medium;
-    max-width: 80vh;
+    max-width: 50vh;
 }
 
 h1{
@@ -78,4 +78,5 @@ h2{
 figure{
     margin: 0;
     padding: 0;
+    
 }
