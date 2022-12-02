@@ -96,7 +96,7 @@ figure{
 #list{
 
 	color: black;
-	font-family: times new roman;
+	font-family: "times new roman";
 	font-size: 26px;
 }
 .listado{
@@ -126,10 +126,10 @@ justify-content: center;
 text-align: center;
 
 height: 50%;
-display: -webkit-inline-flex;
-display: -moz-inline-flex;
-display: -ms-inline-flex;
-display: -o-inline-flex;
+display: "webkit-inline-flex";
+display: "moz-inline-flex";
+display: "ms-inline-flex";
+display: "o-inline-flex";
 display: inline-flex;
 align-items: center;
 background-color: #fff;

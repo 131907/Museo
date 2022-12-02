@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: auto;
+    padding: 0;
 }
 
 .container {max-width: 1280px;
@@ -14,11 +14,11 @@ a {
 /* EVENTOS */
 .rosa {background-color: #FE0879;
 color: white;
-text-align: center center;}
+text-align: center;}
 
 .azul  {background-color: #0037B3;
     color: white;
-    text-align: center center;}
+    text-align: center;}
 
 .exhibicion {margin-top: 30px;
 }
@@ -108,7 +108,7 @@ h2{
 
     .unotres {margin-left: 0px;}
     
-    .doscuatro {margin-right: opx;}
+    .doscuatro {margin-right: 0px;}
     
     .cuatrodos {margin-right: 0px;}}
 
